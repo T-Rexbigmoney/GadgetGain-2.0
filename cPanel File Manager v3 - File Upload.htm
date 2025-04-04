@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>cPanel File Manager v3 - File Upload</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=1">
+
+        <link type="text/css" rel="stylesheet" href="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/container.css">
+
+        <link rel="stylesheet" type="text/css" href="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/open_sans.min.css">
+        <link rel="stylesheet" type="text/css" href="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/all.min.css">
+
+        <link type="text/css" rel="stylesheet" href="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/tree_styles2_optimized.css">
+        <link type="text/css" rel="stylesheet" href="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/upload_optimized.css">
+    </head>
+    <body class="yui-skin-sam" id="leftmain">
+        <div id="topbar" class="clear navbar navbar-inverse navbar-cpanel">
+            <span id="branding" class="navbar-brand">
+                <a id="lnkHeaderHome" href="https://box4196.bluehost.com:2083/cpsess5827153708/frontend/jupiter/index.html">
+                    <img id="imgLogo" src="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/logo_small.svg" alt="cPanel" class="navbar-brand-logo">
+                </a>
+                <span class="brand-name">
+                File Upload
+                </span>
+            </span>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                                            <h3>Select the file you want to upload to “/home1/fvtaqhmy/gadgetgain.com/442771”.</h3>
+                        <div class="callout callout-info">
+                            <div>
+                            Maximum file size allowed for upload:
+                            <span class="status" id="file_upload_remain">500&nbsp;MB</span>
+                            </div>
+                        </div>
+
+                        <div class="doc_container">
+                            <div id="customSettingsContainer">
+                                <div class="checkbox">
+                                    <label>
+                                        <input id="overwrite_checkbox" type="checkbox" name="overwrite" value="1">
+                                        Overwrite existing files
+                                    </label>
+                                </div>
+                            </div>
+                            <div id="upload_drop_zone" class="file-drop-zone">
+                                <div id="uploader_text_area">
+                                    <p>Drop files here to start uploading</p>
+                                    <p>or</p>
+                                </div>
+                                <div id="uploader_button_area">
+                                    <button type="button" id="uploader_button" class="btn btn-primary" onclick="uploadService.triggerFileSelection()">
+                                    Select File
+                                    </button>
+                                    <input type="file" id="uploader_file_input" name="uploader_file_input" onchange="uploadService.uploadfile(this)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uploaderContainer" id="uploaders"><div id="uploader1"><div class="uploadtable">
+            
+            <div id="uploaderprogress1"><label for="uploaderstatus1">logo-no-background.png</label>
+            <div id="uploaderstatus1" class="progress">
+                <div id="progress1" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel1" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats1">44.03 KB complete</div></div>
+        </div></div><div id="uploader2"><div class="uploadtable">
+            
+            <div id="uploaderprogress2"><label for="uploaderstatus2">about.html</label>
+            <div id="uploaderstatus2" class="progress">
+                <div id="progress2" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel2" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats2">643 Bytes complete</div></div>
+        </div></div><div id="uploader3"><div class="uploadtable">
+            
+            <div id="uploaderprogress3"><label for="uploaderstatus3">blog.html</label>
+            <div id="uploaderstatus3" class="progress">
+                <div id="progress3" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel3" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats3">617 Bytes complete</div></div>
+        </div></div><div id="uploader4"><div class="uploadtable">
+            
+            <div id="uploaderprogress4"><label for="uploaderstatus4">contacts.html</label>
+            <div id="uploaderstatus4" class="progress">
+                <div id="progress4" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel4" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats4">747 Bytes complete</div></div>
+        </div></div><div id="uploader5"><div class="uploadtable">
+            
+            <div id="uploaderprogress5"><label for="uploaderstatus5">deals.html</label>
+            <div id="uploaderstatus5" class="progress">
+                <div id="progress5" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel5" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats5">635 Bytes complete</div></div>
+        </div></div><div id="uploader6"><div class="uploadtable">
+            
+            <div id="uploaderprogress6"><label for="uploaderstatus6">index.html</label>
+            <div id="uploaderstatus6" class="progress">
+                <div id="progress6" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel6" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats6">7.28 KB complete</div></div>
+        </div></div><div id="uploader7"><div class="uploadtable">
+            
+            <div id="uploaderprogress7"><label for="uploaderstatus7">reviews.html</label>
+            <div id="uploaderstatus7" class="progress">
+                <div id="progress7" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel7" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats7">717 Bytes complete</div></div>
+        </div></div><div id="uploader8"><div class="uploadtable">
+            
+            <div id="uploaderprogress8"><label for="uploaderstatus8">style.css</label>
+            <div id="uploaderstatus8" class="progress">
+                <div id="progress8" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 100%;">100%</div>
+                </div>
+            
+            <button id="uploaderCancel8" class="cancel hidden"><span class="fas fa-times"></span></button><div class="help-block upload-stats" id="uploaderstats8">8.04 KB complete</div></div>
+        </div></div></div>
+
+                        <div id="promptContainer"></div>
+                    
+                    <div class="return-link">
+                        
+                            <a id="lnkReturn" href="https://box4196.bluehost.com:2083/cpsess5827153708/frontend/jupiter/filemanager/index.html?dir=%2fhome1%2ffvtaqhmy%2fgadgetgain.com%2f442771" target="file_manager;" onclick="return uploadService.goBackHandler()">
+                                <span class="glyphicon glyphicon-circle-arrow-left"></span>
+                                Go Back to “/home1/fvtaqhmy/gadgetgain.com/442771”
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/plain" id="uploaderhtml_template">
+        <div class="uploadtable">
+            <div id="uploadform{thisid_html}" class="upload-hidden-form">
+                <iframe id="ut{thisid_html}" name="ut{thisid_html}" src="javascript:void(0)" style="width:0px;height:0px;border:0"></iframe>
+                <form name="uform{thisid_html}" id="frm{thisid_html}" class="upload-form" action="/cpsess5827153708/json-api/cpanel" onsubmit="return false;" method="post" enctype="multipart/form-data" target="ut{thisid_html}">
+                    <input type="hidden" name="cpanel_jsonapi_module" value="Fileman" />
+                    <input type="hidden" name="cpanel_jsonapi_func" value="uploadfiles" />
+                    <input type="hidden" name="cpanel_jsonapi_apiversion" value="2" />
+                    <input type="hidden" name="getdiskinfo" value="1" />
+                    <input type="hidden" name="permissions" value="0644" />
+                    <input type="hidden" name="cpanel-trackupload" value="" />
+                    <input type="hidden" name="dir" value="/home1/fvtaqhmy/gadgetgain.com/442771" />
+                    <input type="hidden" name="overwrite" value="0" />
+                </form>
+            </div>
+            <div id="uploaderprogress{thisid_html}"></div>
+        </div>
+        </script>
+        <script type="text/plain" id="dnd_uploaderhtml_template">
+        <div class="uploadtable">
+            <div id="uploadform{thisid_html}" class="upload-hidden-form">
+                <form name="uform{thisid_html}" id="frm{thisid_html}" class="upload-form" enctype="multipart/form-data" target="ut{thisid_html}">
+                    <input type="hidden" name="get_disk_info" value="1" />
+                    <input type="hidden" name="dir" value="/home1/fvtaqhmy/gadgetgain.com/442771" />
+                </form>
+            </div>
+            <div id="uploaderprogress{thisid_html}"></div>
+        </div>
+        </script>
+        <script type="text/plain" id="upload_progress_template">
+            <label for="uploaderstatus{thisid_html}">{fileName}</label>
+            <div id="uploaderstatus{thisid_html}" class="progress">
+                <div id="progress{thisid_html}"
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="min-width: 2em;">0%</div>
+                </div>
+            </div>
+            <div class="help-block upload-stats" id="uploaderstats{thisid_html}"></div>
+        </script>
+
+        <script type="text/plain" id="already_exists_template">
+            <p>
+            The following files already exist on the server in the directory “{dir_html}”:
+            </p>
+            <div class="file-list" id="filelist">{filelist_html}</div>
+            <p>Do you want to continue your upload and overwrite these files?</p>
+        </script>
+
+        <script type="text/javascript" src="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/jquery.min.js"></script>
+        <script type="text/javascript" src="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/utilities_container.js"></script>
+        <script type="text/javascript" src="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/cpanel-all-min.js"></script>
+
+        <script type="text/javascript">
+            var PAGE = {
+                uploadkey: 'T14jY64F3Oa7ZREp',
+                dir: "\/home1\/fvtaqhmy\/gadgetgain.com\/442771",
+
+                maxUploadBytes: 524288000.00,
+                startUploadFree: 524288000.00,
+                userHasQuota: 1,
+            };
+
+            // must be here to give control back to the new version of jquery we are including.
+            // cpanel-all-min.js uses an old version of jquery.
+            jQuery.noConflict();
+        </script>
+
+                    <script type="text/javascript" src="cPanel%20File%20Manager%20v3%20-%20File%20Upload_files/filemanager_upload_optimized.js"></script>
+        
+    
+
+</body></html>

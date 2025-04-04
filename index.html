@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GadgetGain</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://gadgetgain.com">
+            <img src="images/Gadgetgain-logo/logo-no-background.png" alt="GadgetGain Logo" />
+            </a>
+        </div>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+        </nav>
+              <!-- Added search bar and cart icon -->
+    <div class="header-icons">
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button type="submit" class="search-btn">🔍</button>
+        </div>
+        <div class="cart-icon">
+            <a href="cart.html">
+                <span class="cart-count"></span> <!-- Cart item count (example) -->
+                🛒
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="hero-banner">
+            <div class="hero-slides">
+                <!-- Slide 1 -->
+                <div class="hero-slide active" style="background-image: url('images/banner (1).p');">
+                    <div class="hero-content">
+                        <h1>Welcome to Gadgetgain, your go to store for tech professionals</h1>
+                        <p>Discover the latest trends in the digital world and take your skills to the next level</p>
+                        <a href="#" class="cta-button">Shop Now</a>
+                    </div>
+                </div>
+    
+                <!-- Slide 2 -->
+                <div class="hero-slide" style="background-image: url('images/macbook-pro.png');">
+                    <div class="hero-content">
+                        <h1>From storage to software, we got you</h1>
+                        <p>Embrace the season with our newest arrivals</p>
+                        <a href="#" class="cta-button">View Collection</a>
+                    </div>
+                </div>
+    
+                <!-- Slide 3 -->
+                <div class="hero-slide" style="background-image: url('images/banner (3).jpg');">
+                    <div class="hero-content">
+                        <h1>Special Offers</h1>
+                        <p>Up to 50% off on selected items</p>
+                        <a href="#" class="cta-button">Shop Deals</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Navigation Arrows -->
+            <button class="hero-nav prev" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="hero-nav next" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+    
+            <!-- Slide Indicators -->
+            <div class="hero-indicators"></div>
+        </div>
+    
+        </section>         
+        <div class="container">
+            <h2 class="title">Featured Products</h2>
+            
+            <div class="slideshow-container">
+                <div class="loading-spinner" id="loading">
+                    <div class="spinner"></div>
+                </div>
+    
+                <div class="slides-wrapper" id="slidesWrapper">
+                    <div class="slide">
+                        <img src="images/speakers.jpg" alt="Modern Desk Setup">
+                        <div class="product-info">
+                            <h3>Create Premium Speakers</h3>
+                            <p>$299</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/VR.jpg" alt="Wireless Headphones">
+                        <div class="product-info">
+                            <h3>VR</h3>
+                            <p>$199</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/S25 ultra.webp" alt="Smart Watch">
+                        <div class="product-info">
+                            <h3>Sumsung Galaxy S25 Ultra</h3>
+                            <p>$249</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <button class="nav-button prev" id="prevButton">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-button next" id="nextButton">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+    
+                <div class="dots-container" id="dotsContainer"></div>
+            </div>
+        
+          </div>         
+                      
+            </div>
+            <section class="categories">
+                <h2>Shop By Category</h2>
+                <div class="category-cards">
+                    <div class="category-card">
+                        <img src="images/category poene1.avif" alt="Smartphones">
+                        <h3>Smartphones</h3>
+                        <a href="smartphones.html" class="cta-button">Shop Now</a>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/it image.webp" alt="IT Professionals">
+                        <h3>IT Professionals</h3>
+                        <a href="IT professionals.html" class="cta-button">Shop Now</a>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/laptop category image1.jpg" alt="Laptops">
+                        <h3>Laptops</h3>
+                        <a href="laptops.html" class="cta-button">Shop Now</a>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/smart gadgets.jpg" alt="smart technologies">
+                        <h3>smart technologies</h3>
+                        <a href="smart technologies.html" class="cta-button">Shop Now</a>
+                    </div><!-- You can add more categories here -->
+                </div>
+            </section>
+            
+        </section>
+
+        <section class="blog">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-post">
+                <h3>Premium Stands</h3>
+                <p>You can view and read the blogs on the blog tap..</p>
+                <a href="#" class="cta-button">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Best Tablets & Tripple fold Cell phones for work</h3>
+                <p>You can view and read the blogs on the blog tap..</p>
+                <a href="#" class="cta-button">Read More</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><strong>Disclaimer:</strong> Some links on this site are affiliate links. If you purchase through these links, we may earn a commission at no additional cost to you.</p>
+
+        <div class="footer-content">
+            <!-- Free Shipping Text -->
+            <div class="free-shipping">
+                Free shipping on orders over $60
+            </div>
+            <!-- Affiliate Partners Section -->
+        <div class="affiliate-links">
+            <p><strong>Our Trusted Partners:</strong></p>
+            <ul>
+                <!-- Amazon Affiliate -->
+                <li>
+                    <a href="https://www.amazon.com" target="_blank" title="Amazon">
+                        <i class="fab fa-amazon"></i> Amazon
+                    </a>
+                    <p>Your go-to destination for all things shopping. We earn a small commission when you buy through our link at no extra cost to you.</p>
+                </li>
+                
+                <!-- Shopify Affiliate -->
+                <li>
+                    <a href="https://www.shopify.com" target="_blank" title="Shopify">
+                        <i class="fab fa-shopify"></i> Shopify
+                    </a>
+                    <p>Start your online business with Shopify’s easy-to-use platform. We may earn a commission when you sign up via our referral link.</p>
+                </li>
+                
+                <!-- TikTok Affiliate -->
+                <li>
+                    <a href="https://www.tiktok.com" target="_blank" title="TikTok">
+                        <i class="fab fa-tiktok"></i> TikTok
+                    </a>
+                    <p>Check out the latest trends on TikTok! We earn a small referral fee when you sign up through our link.</p>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <!-- Social Media Icons (Positioned at the bottom left) -->
+    <div class="social-icons">
+        <!-- X/Twitter Icon (Added this one) -->
+    <a href="https://x.com/TRexbigmney?t=BsJn5huungPxyD_-wEuwqg&s=03" target="_blank" class="social-icon" title="Twitter">
+        <i class="fab fa-twitter"></i> <!-- X icon used for Twitter -->
+    </a>
+    <!-- LinkedIn Icon (Added this one) -->
+    <a href="https://www.linkedin.com/in/tshepo-mokhoenyane-1942b723a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me" target="_blank" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.tiktok.com" target="_blank" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+      <!-- Footer Links -->
+    <div class="footer-links">
+        <a href="/privacy-policy" style="color:white;">Privacy Policy</a> | 
+        <a href="/affiliate-disclaimer" style="color:white;">Affiliate Disclaimer</a>
+    </div>
+    <!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <!-- Left side of the footer for the contact form -->
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            <p id="formResponse"></p> <!-- A place to display the form response -->
+       
+        </div>
+    </footer>
+
+    <footer>
+        <p>&copy; 2024 GadgetGain. All Rights Reserved.Visit us at <a href="https://gadgetgain.com">Gadgetgain.com</a></p>
+    </footer>
+      
+</body>
+</html>
+
